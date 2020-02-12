@@ -20,7 +20,7 @@
 		<junit.jupiter.version>5.4.0</junit.jupiter.version>
 		<java.version>1.8</java.version>
 
-		<!-- SonarCloud-->
+		<!-- SonarCloud -->
 		<sonar.projectKey>nomizo-iox_PollingApp-BE</sonar.projectKey>
 		<sonar.organization>nomizo-iox</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
