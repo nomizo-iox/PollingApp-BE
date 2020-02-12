@@ -1,4 +1,4 @@
-package com.nomizo.global;
+package com.nomizo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
