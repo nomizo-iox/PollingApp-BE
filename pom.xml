@@ -19,6 +19,12 @@
 		<maven.compiler.source>8</maven.compiler.source>
 		<junit.jupiter.version>5.4.0</junit.jupiter.version>
 		<java.version>1.8</java.version>
+
+		<!-- SonarCloud-->
+		<sonar.projectKey>nomizo-iox_PollingApp-BE</sonar.projectKey>
+		<sonar.organization>nomizo-iox</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>0440ecb246ecba50788046c2498284792faad49a</sonar.login>
 	</properties>
 
 	<dependencies>
