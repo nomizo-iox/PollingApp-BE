@@ -8,6 +8,7 @@ pipeline {
 
                     echo 'Start of the Compile Stage '
                     sh 'mvn clean compile'
+                    sh 'mvn verify sonar:sonar'
                     echo 'End of the compile stage'
                 }
             }
@@ -19,7 +20,6 @@ pipeline {
                    echo 'Start of the Testing Stage '
                    sh 'mvn test'
                    echo 'End of the Testing stage'
-                   sh 'mvn test'
                 }
             }
         }
@@ -30,7 +30,6 @@ pipeline {
                    echo 'Start of the Deployment Stage '
                    sh 'mvn deploy'
                    echo 'End of the Deployment stage'
-                   sh 'mvn deploy'
                 }
             }
         }
